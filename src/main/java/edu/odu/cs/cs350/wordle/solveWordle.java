@@ -27,6 +27,7 @@ public class solveWordle {
         } else if (wordle.numWords() == 0) {
             System.out.println("No solution is possible using words in the dictionary.");
         }
+        System.out.println("All done!");
     }
 
     private static void processAGuess(Wordle wordle) throws IOException {
